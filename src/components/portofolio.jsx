@@ -134,6 +134,23 @@ const Portfolio = () => {
           <h2 className="text-2xl font-bold tracking-tight mb-6">Things I've built</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             
+            <div className="bg-card border border-[#1e1e1e] hover:border-lime-700 transition-colors rounded-2xl p-5">
+              <div className="flex justify-between items-start mb-3">
+                <div className="w-9 h-9 bg-[#0f2000] rounded-lg flex items-center justify-center text-base">🏥</div>
+                <span className="font-mono text-[10px] bg-[#0f2000] text-lime-400 px-2 py-1 rounded-full border border-[#1a3a00]">Backend + CMS</span>
+              </div>
+              <h3 className="text-base font-bold mb-1.5">Medpoint Mediverse</h3>
+              <p className="text-xs text-slate-500 leading-relaxed mb-3">Developed a robust backend and CMS for Medpoint Mediverse healthcare platform, focusing on secure data management and efficient content delivery.</p>
+              <div className="flex flex-wrap gap-1.5 mb-4">
+                <span className="font-mono text-[10px] bg-[#0f2000] text-lime-400 px-2 py-1 rounded-full border border-[#1a3a00]">Node.js</span>
+                <span className="font-mono text-[10px] bg-[#0f2000] text-lime-400 px-2 py-1 rounded-full border border-[#1a3a00]">Express</span>
+                <span className="font-mono text-[10px] bg-[#0f2000] text-lime-400 px-2 py-1 rounded-full border border-[#1a3a00]">REST API</span>
+              </div>
+              <a href="https://cms-phi-orcin.vercel.app/" target="_blank" rel="noreferrer" className="text-[11px] text-lime-400 hover:text-yellow-300 transition-colors font-mono underline">
+                Visit CMS App →
+              </a>
+            </div>
+            
             {/* Project Card 1 */}
             <div className="bg-card border border-[#1e1e1e] hover:border-lime-700 transition-colors rounded-2xl p-5">
               <div className="flex justify-between items-start mb-3">
